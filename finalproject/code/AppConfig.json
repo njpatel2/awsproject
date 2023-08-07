@@ -1,0 +1,14 @@
+{
+    "SQL_HOST":"database2.c5qodmqginry.us-east-2.rds.amazonaws.com",
+    "SQL_USER":"root",
+    "SQL_PASSWORD":"nick1234",
+    "SQL_DB":"UserDB",
+    "SECRET_KEY":"5aa5d3140cd5f2c037f4c80fe444b6883d50457ab20f10ca319a90318940cee6dfee2c4bcf1105b81c5fb11425a413611354f69097378174b08254547b439207",
+    "UPLOAD_FOLDER":"static",
+    "AWS_ACCESS_KEY_ID":"AKIAXHY4AB2JDZNNJZNP",
+    "AWS_SECRET_ACCESS_KEY":"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",
+    "REGION_NAME":"us-east-2",
+    "AUTHOR_EMAIL":"njpatel2@uab.edu",
+    "BUCKET_NAME":"projectcs633",
+    "BUCKET_EMAIL":"buckemail"
+}

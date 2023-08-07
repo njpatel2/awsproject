@@ -1,0 +1,73 @@
+{% extends 'master.html' %}
+{% block title %} {{ title }} {% endblock %}
+{% block content%}
+	<!-- 
+<form id="register" method="POST" onsubmit="return register(this);"  >
+<div class="Auth-Container">
+    <table class="Auth-Container-header">
+        <tr>
+            <td class="text-left Auth-Container-header-col1"><h1>File Uploader</h1></td>
+            <td class="text-right Auth-Container-header-col2"><h1> Register</h1></td>
+        </tr>
+    </table>
+    
+<table>
+    <tr>
+        <td>
+                <input type="text" id="username" class="text-input" name="username"  placeholder="Username" value="" />
+        </td>
+    </tr>
+    <tr>
+        <td>
+<input type="email" id="email" class="text-input" name="email"  placeholder="E-mail" value="" />
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <input id="password" type="password" placeholder="password" name="password" oninput="passValidation(this)"  class="text-input" value="" />
+        </td>
+    </tr>
+    <tr>
+            <td>
+                <input id="passwordMatch" type="password" placeholder="re-password" oninput="passMatch(this)"  class="text-input" value="" />
+            </td>
+        </tr>
+    <tr>
+        <td>
+            <input type="submit" id="submit"  value="Register" />
+        </td>
+    </tr>
+    <tr>
+        <td class="text-center">
+  <label id="Errordisplay" class="Error"> </label>
+            {% include "Alerts.html" %}
+        </td>
+    </tr>
+</table>
+</div>
+</form>  -->
+
+    <div class="container">
+        <h1>Sign Up</h1>
+		 <label id="Errordisplay" class="Error"> </label>
+            {% include "Alerts.html" %}
+        <form id="register" method="POST" onsubmit="return register(this);"  >
+            <label for="first_name">Name:</label>
+            <input type="text" id="username" name="username"  placeholder="Username" value="" />
+
+            <label for="email">Email Address:</label>
+            <input type="email" id="email" name="email"  placeholder="E-mail" value="" />
+
+            <label for="password">Password:</label>
+            <input id="password" type="password" placeholder="password" name="password" oninput="passValidation(this)"  value="" />
+
+            <label for="confirm_password">Confirm Password:</label>
+            <input id="passwordMatch" type="password" placeholder="re-password" oninput="passMatch(this)"  class="text-input" value="" />
+
+            <input type="submit" id="submit"  value="Register" />
+        </form>
+        <p>Already have an account? <a href="/Auth/Login">Sign In</a></p>
+    </div>
+
+
+{% endblock %}

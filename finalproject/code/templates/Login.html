@@ -1,0 +1,39 @@
+{% extends 'master.html' %}
+{% block title %} {{ title }} {% endblock %}
+{% block content%}
+
+<form id="login" method="POST">
+<div class="Auth-Container">
+    <table class="Auth-Container-header">
+        <tr>
+            <td ><h1 style="color: black !important">File Uploader</h1></td>
+            <td ><h1 style="color: black !important"> Login</h1></td>
+        </tr>
+    </table>
+    
+<table>
+    <tr>
+        <td>
+<input type="email" id="email" class="text-input" name="email" placeholder="e-mail" value="" />
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <input id="password" type="password" name="password" placeholder="password" oninput="passValidation(this)"  class="text-input" value="" />
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <input type="submit" id="submit"  value="Login" />
+        </td>
+    </tr>
+    <tr>
+        <td class="text-center">
+                <label id="Errordisplay" class="Error"> </label>
+            {% include "Alerts.html" %}
+        </td>
+    </tr>
+</table>
+</div>
+</form> 
+{% endblock %}
