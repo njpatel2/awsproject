@@ -1,4 +1,4 @@
-CloudServeDine: AWS-Python Food Delivery System
+AWS-Python Food Delivery System
 Overview
 CloudServeDine is a cutting-edge food delivery system, built with Python and fully integrated with AWS services, utilizing Boto3 for seamless operation. It's designed to manage orders, track deliveries, and ensure a high-quality user experience.
 
@@ -24,3 +24,11 @@ Adopt best practices for AWS service configurations, managing access through AWS
 
 Contribution
 Feel free to contribute by forking the repository and submitting pull requests with improvements.
+
+License
+Distributed under the MIT License. See LICENSE for more information.
+
+
+
+
+
