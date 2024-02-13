@@ -1,4 +1,4 @@
-# AWS-Python Food Delivery System
+# AWS-Python Food Delivery and Inventory System
 
 ## Overview
 CloudServeDine leverages Python and AWS, utilizing Boto3, to create a scalable and efficient platform for food delivery services. This project integrates MongoDB for database needs, providing a robust backend solution.
